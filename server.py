@@ -8,10 +8,11 @@ async def server(websocket, path):
     connected.add(websocket)
     try:
         async for message in websocket:
-            print(message)
+            print(f"Received message: {message}")  # Print the received message
             for conn in connected:
                 if conn != websocket:
                     await conn.send(message)
+
     finally:
         connected.remove(websocket)
 
