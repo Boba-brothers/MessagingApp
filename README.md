@@ -1,4 +1,11 @@
-# MessagingApp
+# Messaging App
+
+Project Manager: [Asana](https://app.asana.com/0/1206965707456536/1206965708625594)
+
+Tech stack:
+
+1. Python
+2. HTML
 
 ## Create Python env:
 
@@ -10,7 +17,7 @@ myenv\Scripts\activate
 
 ## Install dependencies:
 
-pip install -r requirements. txt
+pip install -r requirements.txt
 
 ## Start messaging app:
 
