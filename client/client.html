@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Chat Client 1</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>src="./backend.js"</script>
+    <link rel="stylesheet" href="../styles.css">
+    <script>src = "./backend.js"</script>
 </head>
-<div class = "header">
+<div class="header">
     <p>Client 1</p>
 </div>
+
 <body>
     <div id="messages"></div>
     <input type="text" id="messageInput" placeholder="Type Your Message here...">
     <button onclick="sendMessage()">Send</button>
-    
-      
+
+
     <script>
         var socket = new WebSocket("ws://localhost:8765");
         var message = document.getElementById('message');
         var messageInput = document.getElementById('messageInput');
 
-        socket.onmessage = function(event) {
+        socket.onmessage = function (event) {
             var message = document.createElement('p');
             message.textContent = event.data;
             messages.appendChild(message);
@@ -33,4 +35,5 @@
         }
     </script>
 </body>
+
 </html>
