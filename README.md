@@ -2,7 +2,7 @@
 
 Project Manager: [Asana](https://app.asana.com/0/1206965707456536/1206965708625594)
 
-[GitHub](https://github.com/Boba-brothers/MessagingApp)
+MessagingApp: [GitHub Link](https://github.com/Boba-brothers/MessagingApp)
 
 Tech stack:
 1. Python
