@@ -11,6 +11,7 @@ async def server(websocket, path):
             print(f"Received message: {message}")  # Print the received message
             for conn in connected:
                 if conn != websocket:
+                    # check what conn is. (check type)
                     await conn.send(message)
 
     finally:

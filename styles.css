@@ -1,0 +1,32 @@
+body{
+
+}
+
+.ChatsList{
+
+}
+.ChatsText{
+    color: red;
+
+}
+.SearchBar{
+
+}
+.SearchBarIcon{
+
+}
+
+.friendsList{
+
+}
+
+.friendListProfilePic{
+    width: 100px;
+    height: 100px;
+    border: red, 1px;
+    border-radius: 100px;
+}
+
+.friendListName{
+
+}

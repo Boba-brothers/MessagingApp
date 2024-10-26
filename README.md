@@ -1,21 +1,31 @@
-# MessagingApp
+# Messaging App
 
-## Create Python env:
+Project Manager: [Asana](https://app.asana.com/0/1206965707456536/1206965708625594)
 
-python -m venv myenv
+[GitHub](https://github.com/Boba-brothers/MessagingApp)
 
-## Activate env:
+Tech stack:
+1. Python
+2. HTML
 
-myenv\Scripts\activate
+## For FIRST TIME start up:
 
-## Install dependencies:
+### Create Python env:
 
-pip install -r requirements. txt
+`python -m venv myenv`
+
+### Activate env:
+
+`myenv\Scripts\activate`
+
+### Install dependencies:
+
+`myenv\Scripts\activate`
 
 ## Start messaging app:
 
 ### Use in Terminal:
 
-1. python -m http.server
-2. python server.py (in different terminal)
-3. localhost:8000 (in web browser)
+1. `python -m http.server`
+2. `python server.py` *(in different terminal)*
+3. `localhost:8000` *(in web browser)*
